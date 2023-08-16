@@ -39,7 +39,7 @@ Follow these instructions to get the Blood Bank App up and running on your local
 
 1. Clone the repository:
    ```
-   git clone https://github.com/bhardwajdeepak0052/Blood-Bank-App
+   git clone https://github.com/bhardwajdeepak0052/Blood-Bank-App.git
    ```
 
 2. Install server dependencies:
@@ -55,7 +55,9 @@ Follow these instructions to get the Blood Bank App up and running on your local
 
 4. Create a `.env` file in the `server` directory and add your MongoDB connection string:
    ```
-   MONGODB_URI=your-mongodb-connection-string
+   PORT =  Whichever you want (ex-> 8080)
+   JWT_SECRET = (*******)  //security password for token 
+   MONGODB_URL=your-mongodb-connection-string
    ```
 
 5. Start the server and client by a single command:
