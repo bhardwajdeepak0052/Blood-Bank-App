@@ -20,7 +20,7 @@ app.use(morgan("dev"));
 
 //routes
 // 1 test route
-app.use("/api/v1/test", require("./routes/testRoutes"));
+// app.use("/api/v1/test", require("./routes/testRoutes"));
 app.use("/api/v1/auth", require("./routes/authRoutes"));
 app.use("/api/v1/inventory", require("./routes/inventoryRoutes"));
 app.use("/api/v1/analytics", require("./routes/analyticsRoutes"));
